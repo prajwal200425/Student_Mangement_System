@@ -34,13 +34,13 @@ The Student Management System simplifies administrative tasks such as adding, up
    git clone https://github.com/prajwal200425/Student_Mangement_System.git
    cd Student_Mangement_System
 
-cd client && npm install
-cd ../server && npm install
+- cd client && npm install
+- cd ../server && npm install
 
 # server/.env
-PORT=5000
-DB_URI=mongodb://localhost:27017/student_mgmt
-JWT_SECRET=your_secret_key
+- PORT=5000
+- DB_URI= DB Connection String MongoDB Compass or MongoDB Atlas
+- JWT_SECRET=your_secret_key
 
 # In separate terminals
 cd server && npm start
@@ -81,7 +81,7 @@ Environment variables are stored in `.env` files:
 
 Additional configurations can include API base URLs, logging levels, etc.
 
-### Backend API (via Postman or curl)
+### Backend API (via Postman )
 ```bash
 # Get all students
 GET http://localhost:5000/students

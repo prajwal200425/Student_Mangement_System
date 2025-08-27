@@ -7,7 +7,7 @@ The Student Management System simplifies administrative tasks such as adding, up
 
 ## Features
 - CRUD operations for student records (name, age, department, address, contact, email.)
-- Class management (viewing , adding/removing/updating students records)
+- Records management (viewing , adding/removing/updating students records)
 - UI built with modern frameworks like React , TailwindCSS
 - RESTful APIs for CRUD Operations
 
@@ -97,6 +97,7 @@ Student_Mangement_System/
 │   ├── package.json
 │   └── .env
 └── README.md
+
 
 
 

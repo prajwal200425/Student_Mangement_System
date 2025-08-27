@@ -10,6 +10,7 @@ The Student Management System simplifies administrative tasks such as adding, up
 - Records management (viewing , adding/removing/updating students records)
 - UI built with modern frameworks like React , TailwindCSS
 - RESTful APIs for CRUD Operations
+- Register and Login with JWT , Bcrypt.
 
 ## Tech Stack
 - **Frontend (client)**: e.g., React, Tailwind CSS.
@@ -97,6 +98,7 @@ Student_Mangement_System/
 │   ├── package.json
 │   └── .env
 └── README.md
+
 
 
 
